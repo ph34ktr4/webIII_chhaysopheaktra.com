@@ -1,1 +1,43 @@
-node_modules
+# Dependencies
+/node_modules
+
+# Build output
+
+/out-tsc
+
+# Angular cache
+/.angular/cache
+
+# Compiled files
+*.js
+*.js.map
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment files (secrets, local configs)
+src/environments/environment.local.ts
+src/environments/environment.*.ts
+.env
+.env.local
+
+# IDE & Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+/coverage
+
+# Misc
+/.sass-cache
+/.eslintcache
