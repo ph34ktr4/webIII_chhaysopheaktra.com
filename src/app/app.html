@@ -19,10 +19,11 @@
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <div>
       <input type="button" style="object-fit: contain;" class="btn btn-outline-success my-2 my-sm-0"
-        [routerLink]="['/cart']" 
-        >Cart({{cartService.GetItem().length}})
-      >
+        [routerLink]="['/cart']"value="Cart">
+        ({{cartService.GetItem().length}})
+      </div>
     </form>
   </div>
   </nav>
