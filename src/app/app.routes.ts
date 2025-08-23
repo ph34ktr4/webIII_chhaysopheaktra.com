@@ -13,7 +13,7 @@ export const routes: Routes = [
     {path : 'cart' , component : Cart},
     {path : 'checkout' , component : Checkout},
     {path : 'product-detail' , component : ProductsDetail},
-    {path : '**' , component : Error404},
+    // {path : '**' , component : Error404},
     
 
 ];
